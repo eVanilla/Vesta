@@ -14,7 +14,7 @@ it need more improvements, but it does the job.
 
 ## Installation
 
-first of all you'll need to install ```ruby``` if you didn't installed it.. you can search it on google.
+first of all you'll need to install ```ruby``` if you haven't installed it.. you can search it on google.
 
 Clone the repo by:
 ```
