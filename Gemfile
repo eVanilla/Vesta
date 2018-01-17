@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-gem 'active_support'
+gem 'activesupport'
 gem 'encryption'
 gem 'colorize'
 gem 'sinatra'
 gem 'json'
-gem 'yaml'
