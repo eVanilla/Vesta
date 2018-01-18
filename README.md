@@ -6,7 +6,8 @@ A simple ruby decentralized p2p messenger with E2EE __(end-to-end-encryption, th
 
 it need more improvements, but it does the job.
 
-[![Status](https://img.shields.io/badge/status-it%20works-9d67e4.svg?style=for-the-badge)](https://github.com/eVanilla/Vesta)
+[![Status](https://img.shields.io/badge/status-works%20fine-9d67e4.svg?style=for-the-badge)](https://github.com/eVanilla/Vesta)
+[![Downloads](https://img.shields.io/gem/v/vesta-chat.svg?style=for-the-badge)](https://rubygems.org/gems/vesta-chat)
 
 ## Screenshot
 
