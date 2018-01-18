@@ -14,17 +14,20 @@ it need more improvements, but it does the job.
 
 ## Installation
 
-first of all you'll need to install ```ruby``` if you haven't installed it.. you can search it on google.
+first of all you'll need to install ```ruby``` 
 
-Clone the repo by:
+Add this to your Gemfile
 ```
-$ git clone https://github.com/eVanilla/Vesta
+gem 'vesta-chat'
 ```
-and then navigate to the ```vesta``` folder and install the gems by:
+and then execute
 ```
 $ bundle install
 ```
-if that didn't work.. install them manualy
+or install it yourself as
+```
+$ gem install vesta-chat --no-ri --no-rdoc
+```
 
 ## Usage
 
@@ -32,17 +35,17 @@ it's not too complicated.
 
 Running a node:
 ```
-$ ruby vesta.rb '[your_ip]' [your_port]
+$ vesta '[your_ip]' [your_port]
 # eg.
-$ ruby vesta.rb 'http://localhost' 1000
-# and you're ready to open this (http://localhost:1000) page on browser.  
+$ vesta 'http://localhost' 1000
+# and you're ready to open this (http://localhost:1000) page on your browser.  
 ``` 
 Connecting to a node:
 ```
-$ ruby vesta.rb '[your_ip]' [your_port] '[peer_ip]' [peer_port]
+$ vesta '[your_ip]' [your_port] '[peer_ip]' [peer_port]
 # eg.
-$ ruby vesta.rb 'http://localhost' 1000 'http://localhost' 2000
-# and you're ready to open this (http://localhost:1000) page on browser.  
+$ vesta 'http://localhost' 1000 'http://localhost' 2000
+# and you're ready to open this (http://localhost:1000) page on your browser.  
 ```
 
 ### Improvements that can be made
@@ -51,4 +54,4 @@ $ ruby vesta.rb 'http://localhost' 1000 'http://localhost' 2000
 * Better code style
 * &...
 
-**Also if you liked it.. you can hit that star button to make me happy!**
+**Also if you liked it.. you can just hit that star button to make me happy!**
