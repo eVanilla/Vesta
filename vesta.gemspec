@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A decentralized p2p & E2EE chat group}
   spec.homepage      = "http://github.com/eVanilla/vesta"
 
-  spec.files         = Dir['lib/**/*.rb']
+  spec.files         = Dir['lib/**/*']
   spec.executables   = ["vesta"]  
   spec.require_paths = ['lib']
   
